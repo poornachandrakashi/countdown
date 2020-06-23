@@ -1,0 +1,33 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway:400';
+body{
+  font-family: 'Raleway', sans-serif;
+}
+a:focus{
+  outline:none;
+}
+h1{
+  padding:50px;
+}
+h1:after{
+  content: " ";
+  border-bottom-style: solid;
+  border-bottom-width:2px;
+  display:block;
+  width:100px;
+  margin: 0 auto;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right,      rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.nav-tabs {
+  border-bottom: none;
+}
+.nav-tabs > li > a img {
+  width: 180px;
+}
+.nav > li > a{
+  padding:0;
+}
+.tab-content img{
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.5);
+}
